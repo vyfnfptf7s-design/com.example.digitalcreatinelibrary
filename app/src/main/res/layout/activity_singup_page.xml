@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp">
+
+        <!-- לוגו -->
+
+        <!-- שם מלא -->
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="194dp"
+            android:layout_height="191dp"
+            android:layout_marginTop="40dp"
+            android:contentDescription="App Logo"
+            android:src="@drawable/Login_logo" />
+
+        <EditText
+            android:id="@+id/fullNameEditText"
+            android:layout_width="353dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/singup_fullname"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:textAlignment="center" />
+
+        <!-- מספר טלפון -->
+        <EditText
+            android:id="@+id/phoneEditText"
+            android:layout_width="343dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/singup_phonenamber"
+            android:inputType="phone"
+            android:padding="12dp"
+            android:textAlignment="center" />
+
+        <!-- דואר אלקטרוני -->
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="348dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/singup_email"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:textAlignment="center" />
+
+        <!-- בחירת סיסמה -->
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="347dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/singup_password"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:textAlignment="center" />
+
+        <!-- כפתור הירשם -->
+        <ImageButton
+            android:id="@+id/signupButton"
+
+            android:layout_width="353dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="0dp"
+            android:background="@null"
+            android:contentDescription="Sign Up Button"
+            android:scaleType="fitCenter"
+            android:src="@drawable/singup_singup" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <!-- לוגו -->
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:src="@drawable/Login_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:contentDescription="App Logo" />
+
+
+    <!-- סרגל תחתון -->
+    <LinearLayout
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_marginBottom="200dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <!-- כפתור ספרייה יוצרת -->
+        <ImageButton
+            android:id="@+id/creatorBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:contentDescription="Creator Library Page"
+            android:src="@drawable/creative_library_buttom" />
+
+        <!-- כפתור כתיבה -->
+        <ImageButton
+            android:id="@+id/writingBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:contentDescription="Writing Page"
+            android:src="@drawable/rating_button" />
+
+        <!-- כפתור ספרים -->
+        <ImageButton
+            android:id="@+id/booksBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:contentDescription="Books Page"
+            android:src="@drawable/book_butten1" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp">
+
+        <!-- לוגו -->
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_marginBottom="1dp"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/Login_logo"
+            android:layout_marginTop="40dp"
+            android:contentDescription="App Logo" />
+
+        <!-- שם משתמש -->
+        <EditText
+            android:id="@+id/usernameEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:padding="22dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/Login_username"
+            android:textAlignment="center"
+            android:inputType="text" />
+
+        <!-- סיסמה -->
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:layout_marginTop="12dp"
+            android:background="@drawable/Login_Password"
+            android:textAlignment="center"
+            android:inputType="textPassword" />
+
+        <!-- כפתור הירשם -->
+
+        <!-- כפתור שכחתי סיסמה -->
+
+        <!-- כפתור הירשם קטן -->
+
+        <ImageButton
+            android:id="@+id/loginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:background="@null"
+            android:contentDescription="Login Button"
+            android:scaleType="fitCenter"
+            android:src="@drawable/Login_login" />
+
+        <ImageButton
+            android:id="@+id/forgotPasswordButton"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="16dp"
+            android:background="@null"
+            android:contentDescription="Forgot Password Button"
+            android:src="@drawable/Login_forget_password" />
+
+        <ImageButton
+            android:id="@+id/registerButton"
+
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_width="match_parent"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="8dp"
+            android:background="@null"
+            android:src="@drawable/Login_singup"
+            android:contentDescription="Register Button" />
+
+    </LinearLayout>
+</ScrollView>
