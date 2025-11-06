@@ -16,7 +16,6 @@
         android:src="@drawable/search_Creator_ibrary"
         android:adjustViewBounds="true"
         android:scaleType="fitCenter"
-
         android:contentDescription="Search" />
 
     <!-- כותרת "ספרים" -->
