@@ -5,18 +5,6 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF">
 
-    <!-- כפתור תפריט -->
-    <ImageButton
-        android:id="@+id/menuBtn"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:src="@drawable/ic_menu"
-        android:background="@null"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_margin="16dp"
-        android:adjustViewBounds="true"
-        android:scaleType="fitCenter" />
 
     <!-- שורת חיפוש -->
     <ImageButton
@@ -30,6 +18,18 @@
         android:adjustViewBounds="true"
         android:scaleType="fitCenter" />
 
+    <!-- כותרת כתמונה -->
+    <ImageView
+        android:id="@+id/pageTitle"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/searchBarBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/title_creators_library" />
+
     <!-- כפתורי ז'אנרים -->
     <LinearLayout
         android:id="@+id/genresContainer"
@@ -37,7 +37,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical"
-        android:layout_below="@id/searchBarBtn"
+        android:layout_below="@id/pageTitle"
         android:layout_marginTop="10dp">
 
         <LinearLayout

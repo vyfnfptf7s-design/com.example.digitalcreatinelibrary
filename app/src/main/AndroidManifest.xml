@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DigitalCreatineLibrary">
         <activity
+            android:name=".password_recovery_page"
+            android:exported="false" />
+        <activity
+            android:name=".writing_a_book_page"
+            android:exported="false" />
+        <activity
+            android:name=".creator_library_genre"
+            android:exported="false" />
+        <activity
             android:name=".book_page"
             android:exported="false" />
         <activity

@@ -5,66 +5,72 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF">
 
-    <!-- כפתור חיפוש -->
-    <ImageButton
-        android:id="@+id/searchBtn"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
+    <!-- כותרת: כתיבת ספרים -->
+    <ImageView
+        android:id="@+id/titleWriting"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:layout_marginHorizontal="1dp"
-        android:background="@null"
-        android:src="@drawable/search_Creator_ibrary"
         android:adjustViewBounds="true"
         android:scaleType="fitCenter"
-        android:contentDescription="Search" />
-    <!-- כפתור תפריט -->
+        android:src="@drawable/titel_wirting_book" />
+
+    <!-- כפתור: יצירת ספר חדש -->
     <ImageButton
-        android:id="@+id/menuBtn"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:src="@drawable/momlachim"
-        android:background="@null"
-        android:layout_alignParentTop="true"
+        android:id="@+id/newBookBtn"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/titleWriting"
         android:layout_alignParentEnd="true"
-        android:layout_margin="16dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@null"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/butten_witing_a_new_book" />
+
+    <!-- קו אפור בין כפתור הספר החדש לבין המשך כתיבה -->
+    <View
+        android:id="@+id/middleDivider"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/newBookBtn"
+        android:layout_marginTop="15dp"
+        android:background="#D3D3D3" />
+
+    <!-- כותרת המשך כתיבה -->
+    <ImageView
+        android:id="@+id/continueTitle"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/middleDivider"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/continue_writing_butten"
         android:adjustViewBounds="true"
         android:scaleType="fitCenter" />
 
-
-    <!-- כותרת "ספרים" כתמונה -->
-    <ImageView
-        android:id="@+id/titleBooksImage"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/searchBtn"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="35dp"
-        android:adjustViewBounds="true"
-        android:scaleType="fitCenter"
-        android:src="@drawable/title_books"
-        android:contentDescription="Books Title" />
-
-    <!-- placeholder לאזור של הספרים מהדאטא בייס -->
+    <!-- אזור ספרים מהדאטה בייס (כרגע ריק) -->
     <FrameLayout
         android:id="@+id/booksPlaceholder"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_below="@id/titleBooksImage"
+        android:layout_below="@id/continueTitle"
+        android:layout_above="@id/navBar"
+        android:layout_marginTop="15dp">
 
-        android:layout_marginTop="10dp">
-
-        <!-- הודעת placeholder -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="כאן יוצגו ספרים מהדאטה בייס בעתיד"
+            android:layout_gravity="center"
+            android:text="כאן יוצגו ספרים מהדאטה בייס"
             android:textColor="#888888"
-            android:textSize="16sp"
-            android:layout_gravity="center"/>
+            android:textSize="18sp"/>
     </FrameLayout>
 
-
-    <!-- סרגל תחתון -->
+    <!-- סרגל ניווט תחתון -->
     <LinearLayout
         android:id="@+id/navBar"
         android:layout_width="match_parent"
@@ -76,7 +82,7 @@
         android:background="#FFFFFF">
 
         <ImageButton
-            android:id="@+id/homeBtn"
+            android:id="@+id/libraryBtn"
             android:layout_width="0dp"
             android:layout_height="60dp"
             android:layout_weight="1"
@@ -91,7 +97,7 @@
             android:layout_height="60dp"
             android:layout_weight="1"
             android:background="@null"
-            android:src="@drawable/rating_button"
+            android:src="@drawable/wirting_book_butten"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter" />
 
@@ -101,7 +107,7 @@
             android:layout_height="60dp"
             android:layout_weight="1"
             android:background="@null"
-            android:src="@drawable/book_page_books_butten"
+            android:src="@drawable/book_butten1"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter" />
 
