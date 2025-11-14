@@ -13,7 +13,7 @@
         android:layout_marginTop="40dp"
         android:layout_marginHorizontal="1dp"
         android:background="@null"
-        android:src="@drawable/search_Creator_ibrary"
+        android:src="@drawable/search_creator_library"
         android:adjustViewBounds="true"
         android:scaleType="fitCenter"
         android:contentDescription="Search" />

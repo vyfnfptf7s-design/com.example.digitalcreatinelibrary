@@ -20,7 +20,7 @@
             android:layout_height="191dp"
             android:layout_marginTop="40dp"
             android:contentDescription="App Logo"
-            android:src="@drawable/Login_logo" />
+            android:src="@drawable/login_logo" />
 
         <EditText
             android:id="@+id/fullNameEditText"

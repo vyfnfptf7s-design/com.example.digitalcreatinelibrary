@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1086994771070",
+    "project_id": "dcl-singup-page",
+    "storage_bucket": "dcl-singup-page.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086994771070:android:a9b9e094ac42fe62ff7c2f",
+        "android_client_info": {
+          "package_name": "com.example.digitalcreatinelibrary"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAh0lE5zYme1PsF9qM5G-AgyBPIzIXIBIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

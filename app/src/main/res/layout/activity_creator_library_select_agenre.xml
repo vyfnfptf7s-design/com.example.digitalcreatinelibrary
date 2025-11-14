@@ -13,8 +13,7 @@
         android:layout_height="60dp"
         android:layout_margin="20dp"
         android:background="@null"
-        android:src="@drawable/search_Creator_ibrary"
-        android:layout_below="@id/menuBtn"
+        android:src="@drawable/search_creator_library"
         android:adjustViewBounds="true"
         android:scaleType="fitCenter" />
 

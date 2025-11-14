@@ -10,7 +10,7 @@
         android:id="@+id/logoImage"
         android:layout_width="360dp"
         android:layout_height="360dp"
-        android:src="@drawable/Login_logo"
+        android:src="@drawable/login_logo"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="180dp"
         android:adjustViewBounds="true"

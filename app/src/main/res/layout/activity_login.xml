@@ -17,7 +17,7 @@
             android:layout_marginBottom="1dp"
             android:layout_width="250dp"
             android:layout_height="250dp"
-            android:src="@drawable/Login_logo"
+            android:src="@drawable/login_logo"
             android:layout_marginTop="40dp"
             android:contentDescription="App Logo" />
 
@@ -29,7 +29,7 @@
             android:hint=""
             android:padding="22dp"
             android:layout_marginTop="40dp"
-            android:background="@drawable/Login_username"
+            android:background="@drawable/login_username"
             android:textAlignment="center"
             android:inputType="text" />
 
@@ -40,7 +40,7 @@
             android:layout_height="wrap_content"
             android:hint=""
             android:layout_marginTop="12dp"
-            android:background="@drawable/Login_Password"
+            android:background="@drawable/login_password"
             android:textAlignment="center"
             android:inputType="textPassword" />
 
@@ -58,7 +58,7 @@
             android:background="@null"
             android:contentDescription="Login Button"
             android:scaleType="fitCenter"
-            android:src="@drawable/Login_login" />
+            android:src="@drawable/login_login" />
 
         <ImageButton
             android:id="@+id/forgotPasswordButton"
@@ -69,18 +69,17 @@
             android:layout_marginTop="16dp"
             android:background="@null"
             android:contentDescription="Forgot Password Button"
-            android:src="@drawable/Login_forget_password" />
+            android:src="@drawable/login_forget_password" />
 
         <ImageButton
             android:id="@+id/registerButton"
 
             android:layout_width="match_parent"
             android:layout_height="20dp"
-            android:layout_width="match_parent"
             android:scaleType="fitCenter"
             android:layout_marginTop="8dp"
             android:background="@null"
-            android:src="@drawable/Login_singup"
+            android:src="@drawable/login_singup"
             android:contentDescription="Register Button" />
 
     </LinearLayout>
